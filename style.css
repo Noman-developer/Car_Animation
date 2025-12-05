@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .sky{
     height: 100vh;
     width:100%;
     position: absolute;
-background-image: url('background.jpg');
-background-repeat: no-repeat;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
 }
 body{
     overflow: hidden;
@@ -90,4 +91,5 @@ animation: wheelRotation linear .10s infinite;
     100%{
         transform: translateX(-50px);
     }
+
 }
